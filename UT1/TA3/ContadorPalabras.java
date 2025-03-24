@@ -77,9 +77,16 @@ class ContadorPalabras {
         }
         return contadorPalabras;
     }
+    
+    //Recorro cada liena del archivo y cuento la cantidad de palabras en cada una de ellas, llamando al metodo contarPalabras.
+    public int cantPalabras (String[] lineasArchivo){
+        int contador = 0;
+        for (int i = 0; i < lineasArchivo.length; i++) {
+            contador += contarPalabras(lineasArchivo[i]);
+        }
+        return contador;
+    }
 }
-
-
 
 class Principal {
     public static void main(String args[]) {

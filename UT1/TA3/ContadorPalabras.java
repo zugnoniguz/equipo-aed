@@ -1,6 +1,9 @@
 package ContadorPalabras;
 import java.util.Scanner;
 
+//se ingresa por parametro una frase y se devuelve la cantidad de palabras que contiene,
+//Se considera que una palabra es una secuencia de caracteres que no contienen espacios.
+
 //Metodo de la clase ContadorPalabras cuenta la cantidad de palabras en una frase.
 class ContadorPalabras {
     public int contarPalabras(String frase) {

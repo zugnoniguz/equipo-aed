@@ -1,4 +1,4 @@
-package com.ut1_ta2;
+package UT1.TA2;
 
 public class UtilMath {
 
